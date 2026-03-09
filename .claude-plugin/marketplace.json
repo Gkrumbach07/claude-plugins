@@ -1,10 +1,14 @@
 {
+  "name": "gkrumbach07-claude-plugins",
+  "owner": {
+    "name": "Gage Krumbach"
+  },
   "plugins": [
     {
       "name": "board",
+      "source": "./plugins/board",
       "description": "Agent Boss Lite — coordinate multiple Claude Code sessions via GitHub Issues as a shared blackboard",
-      "version": "1.0.0",
-      "path": "../plugins/board"
+      "version": "1.0.0"
     }
   ]
 }
