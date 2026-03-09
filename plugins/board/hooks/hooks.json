@@ -1,0 +1,10 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "type": "command",
+        "command": "gh issue list --repo ambient-code/platform --label blackboard --state open --search \"$(git rev-parse --abbrev-ref HEAD 2>/dev/null)\" --json body -q '.[0].body' 2>/dev/null | head -80"
+      }
+    ]
+  }
+}

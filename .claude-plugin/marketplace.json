@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    {
+      "name": "board",
+      "description": "Agent Boss Lite — coordinate multiple Claude Code sessions via GitHub Issues as a shared blackboard",
+      "version": "1.0.0",
+      "path": "../plugins/board"
+    }
+  ]
+}
