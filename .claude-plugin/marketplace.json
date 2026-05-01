@@ -17,7 +17,7 @@
         "repo": "Gkrumbach07/odh-claude-tracing"
       },
       "description": "MLflow production tracing for Claude Code skills — captures traces and sends them to a shared MLflow instance",
-      "version": "1.4.0"
+      "version": "1.5.0"
     }
   ]
 }
